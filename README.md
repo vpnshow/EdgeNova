@@ -80,6 +80,22 @@
 
 ## 边缘节点(EdgeNova)VPN线路、解锁与测速记录
 
+### 历史截图的文字结果
+
+来源为本页已有的 MiaoKo 测速截图。图中时间为 **2026-06-13 02:34:53（CST）**，环境标注珠海联通 9Gbps，工具为喵速 4.7.0，32 线程。
+
+下表摘录部分节点，保留原图的速度单位，未换算为 Mbps；完整记录见下方原图。
+
+| 节点（截图摘录） | TLS RTT | HTTPS 延迟 | 平均速度（原图单位） | 最高速度（原图单位） | 其他记录 |
+| --- | --- | --- | --- | --- | --- |
+| JP日本01 | 169ms | 699ms | 0.00B | 0.00B | UDP：Unknown；该次未测得有效吞吐 |
+| SG新加坡02 | 272ms | 1368ms | 135.90MB | 216.79MB | UDP：FullCone |
+| US美国05 | 312ms | 1461ms | 133.04MB | 256.56MB | UDP：FullCone |
+| TW台湾01 | 314ms | 1278ms | 104.87MB | 175.12MB | UDP：FullCone |
+| HK香港01 | 175ms | 1219ms | 362.73MB | 458.51MB | UDP：FullCone |
+
+零速原因未记录；单次延迟和多线程吞吐不能证明专线架构，也不代表晚高峰或当前家庭网络体验。
+
 ![边缘节点(EdgeNova)三网拓扑](https://i.eoht.net/airport/edgenova_analyze.webp)
 
 ![边缘节点(EdgeNova)流媒体解锁图](https://i.eoht.net/airport/edgenova_fulltest.webp)
